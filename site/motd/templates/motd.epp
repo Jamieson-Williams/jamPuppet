@@ -1,0 +1,15 @@
+<%- | $fqdn,
+      $os_family,
+      $os_name,
+      $os_release,
+      $ip,
+      $system_uptime,
+| -%>
+You have logged into <%= $fqdn %>
+
+This is a <%= $os_family %> system running <%= $os_name %> version <%= $os_release %>
+<%= $fqdn %> has an IP address of <%= $ip %>
+The system has an uptime of <%= $system_uptime %>
+
+*** ALERT! This service is restricted to authorised users only! All activities on this system are logged. 
+Disconnect IMMEDIATELY if you are not an authorised user! ***
