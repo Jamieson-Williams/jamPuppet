@@ -11,14 +11,14 @@ node 'learn.dev.jams.com.au' {
 }
 
 node 'dns.dev.jams.com.au' {
-
+  include motd
 }
 
 node 'dns2.dev.jams.com.au' {
-
+  include motd
 }
 
 node 'ipa.dev.jams.com.au' {
-
+  include motd
 }
 
